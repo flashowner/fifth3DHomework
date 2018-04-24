@@ -5,7 +5,7 @@
 运动的时候会受到多个方面的影响，例如阻力的作用，重力的作用。<br>
 在unity中，运动学和物理学的具体体现是在rigidbody组件上，当勾选isKinematic属性的时候，物体就会被当做<br>
 是运动学，在物理学和运动学同时存在时，优先体现运动学，组件如图所示：<br>
-<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B7.PNG)<br>
 而在scipt中要想实现运动学和物理学的转换也十分简单，只要设定转换的条件，比如说按下一个按键，可以用Input.<br>
 getKeyDown(Keycode.Space)来判断是否是按下一个按键,然后只需要再设置一下飞碟就可以了：this.getComponen<br>
 t<Rigidbody>().isKinematic = true;<br>
@@ -22,7 +22,7 @@ Adapter 适配器模式了，简单的说，Adapter 适配器模式就像我们�
 
 ### 打靶游戏<br>
 在这个打靶游戏中，游戏只有一轮而一轮中可以射无数次箭，首先在游戏开始的时候可以看到左上角的提示：<br>
-<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B71.PNG)<br>
 其中箭囊满表示可以射箭，箭囊空表示不能射箭，在这里，箭囊在射出一支箭后会显示成空的状态，等待<br>
 3秒后，自动销毁，才会重新显示成满的状态，这时候才可以继续射箭。在游戏一开始的时候，通过鼠标<br>
 点击生成箭，然后通过wsad可以移动箭才确定要射出的方向，可以看到箭囊下有力量，在射箭之前可以<br>
@@ -30,13 +30,14 @@ Adapter 适配器模式了，简单的说，Adapter 适配器模式就像我们�
 当箭射到靶上时会停住不动，从里到外的环数分别是54321环，射中后会获得对应的分数分数显示在<br>
 坐上角。<br>
 击中靶子的实现：<br>
-<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B72.PNG)<br>
 鼠标点击生成箭和移动箭：<br>
-<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B73.PNG)<br>)<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B74.PNG)<br>
 箭囊控制和自动销毁箭：<br>
-<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B75.PNG)<br>
 箭在射出后会受到一个一帧时间里由力产生的速度和重力<br>
 游戏运行场景：<br>
-<br>
+![](https://github.com/flashowner/fifth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B76.PNG)<br>
 代码传送门：<br>
 <br>
