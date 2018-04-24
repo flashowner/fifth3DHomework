@@ -43,3 +43,6 @@ Adapter 适配器模式了，简单的说，Adapter 适配器模式就像我们�
 <br>
 ![飞碟游戏](https://github.com/flashowner/fifth3DHomework/tree/master/UFO)<br>
 ![射箭游戏](https://github.com/flashowner/fifth3DHomework/tree/master/Arrow)<br>
+视频传送门：<br>
+![飞碟游戏]()<br>
+![射箭游戏]()<br>
