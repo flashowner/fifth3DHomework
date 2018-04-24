@@ -44,5 +44,6 @@ Adapter 适配器模式了，简单的说，Adapter 适配器模式就像我们�
 ![飞碟游戏](https://github.com/flashowner/fifth3DHomework/tree/master/UFO)<br>
 ![射箭游戏](https://github.com/flashowner/fifth3DHomework/tree/master/Arrow)<br>
 视频传送门：<br>
-![飞碟游戏](http://new-play.tudou.com/v/886445723.html?spm=a2hzp.8244740.0.0)<br>
+飞碟游戏：<br>
+http://new-play.tudou.com/v/886445723.html?spm=a2hzp.8244740.0.0<br>
 ![射箭游戏]()<br>
